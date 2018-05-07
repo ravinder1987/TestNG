@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SANITY" parallel="false">
+<listeners>
+    <listener class-name="ravinder.TestNGlistnerdemo " />
+ 
+  </listeners>
+  <test name="TestRAVI">
+    <classes>
+      <class name="ravinder.TESTNGdemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
