@@ -4,7 +4,7 @@
     <listener class-name="ravinder.TestNGlistnerdemo " />
  
   </listeners>
-  <test name="TestRAVI">
+  <test name="Test1AVI">
     <classes>
       <class name="ravinder.TESTNGdemo"/>
     </classes>

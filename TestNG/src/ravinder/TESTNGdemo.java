@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -29,6 +30,7 @@ public class TESTNGdemo{
 	ExtentReports extent;
 	ExtentTest logger;
 	WebDriver ravi; 
+	WebElement e;
 	
 	@Test(priority=1)
 	public void launch()
